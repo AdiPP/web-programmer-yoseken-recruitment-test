@@ -830,7 +830,7 @@
                 </tr>
               </thead>
               <tbody>
-                @foreach($xxx as $n => $trader)
+                @foreach($traders as $n => $trader)
                 <tr>
                   <th scope="row">{{$n+1}}</th>
                   <td>{{$trader->id_client}}</td>
